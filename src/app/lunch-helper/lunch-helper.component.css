@@ -1,0 +1,32 @@
+.lunchHelper {
+	font-size: 100%;
+}
+
+.questions {
+  display: grid;
+  grid-template-columns: auto auto;
+
+	font-size: 140%;
+}
+
+.restaurants {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.restaurant {
+	border: 0.5px solid white;
+	padding: 10px;
+	font-size: 1.2em;
+  text-align: center;
+}
+
+.valid-restaurant {
+	color: #FFFFFF;
+	background-color: #87189D;
+}
+
+.invalid-restaurant {
+	color: #707070;
+	background-color: #D7D7D7;
+}

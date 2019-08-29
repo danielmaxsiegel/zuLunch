@@ -1,0 +1,31 @@
+<div class="lunchHelper">
+  <div class="questions">
+    <div>
+      Is a vegeterian coming?
+      <input type="checkbox" (click) = "updateForVegetarians()" class="custom-control custom-checkbox mb-3">
+    </div>
+
+    <div>
+      Does anyone have to be back at 1?
+      <input type="checkbox" (click) = "updateForReturningAtOne()" class="custom-control custom-checkbox mb-3">
+    </div>
+
+    <div>
+      Can we leave early?
+      <input type="checkbox" (click) = "updateForLeavingEarly()" class="custom-control custom-checkbox mb-3">
+    </div>
+
+    <div>
+      Are we drinking? 🍻
+      <input type="checkbox" (click) = "updateForDrinking()" class="custom-control custom-checkbox mb-3">
+    </div>
+  </div>
+
+  <div class="restaurants">
+    <div *ngFor="let restaurant of Restaurants" class="restaurant" [ngClass]="(restaurant.isViable) ? 'valid-restaurant' : 'invalid-restaurant'">
+        <span>
+          {{restaurant.name}}
+        </span>
+    </div>
+  </div>
+</div>
