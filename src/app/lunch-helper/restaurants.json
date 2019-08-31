@@ -6,7 +6,9 @@
     "hasSpecials": false,
     "isClosed": false,
     "isViable": true,
+    "message": "",
     "needToLeaveEarly": false,
+    "isRejected": false,
 		"slow": false,
 		"specialDays": [],
     "vegetarianFriendly": true
@@ -19,7 +21,9 @@
     "hasSpecials": false,
     "isClosed": false,
     "isViable": true,
+    "message": "",
     "needToLeaveEarly": false,
+    "isRejected": false,
 		"slow": false,
 		"specialDays": [],
     "vegetarianFriendly": false
@@ -32,7 +36,9 @@
     "hasSpecials": false,
     "isClosed": false,
     "isViable": true,
+    "message": "",
     "needToLeaveEarly": false,
+    "isRejected": false,
 		"slow": false,
 		"specialDays": [],
     "vegetarianFriendly": false
@@ -45,7 +51,9 @@
     "hasSpecials": false,
     "isClosed": false,
     "isViable": true,
+    "message": "",
     "needToLeaveEarly": true,
+    "isRejected": false,
 		"slow": true,
 		"specialDays": [],
     "vegetarianFriendly": true
@@ -58,7 +66,9 @@
     "hasSpecials": false,
     "isClosed": false,
     "isViable": true,
+    "message": "",
     "needToLeaveEarly": false,
+    "isRejected": false,
 		"slow": true,
 		"specialDays": [],
     "vegetarianFriendly": true
@@ -71,7 +81,9 @@
     "hasSpecials": false,
     "isClosed": false,
     "isViable": true,
+    "message": "",
     "needToLeaveEarly": true,
+    "isRejected": false,
 		"slow": true,
 		"specialDays": [],
     "vegetarianFriendly": true
@@ -84,7 +96,9 @@
     "hasSpecials": false,
     "isClosed": false,
     "isViable": true,
+    "message": "",
     "needToLeaveEarly": false,
+    "isRejected": false,
 		"slow": false,
 		"specialDays": [],
     "vegetarianFriendly": true
@@ -97,7 +111,9 @@
     "hasSpecials": false,
     "isClosed": false,
     "isViable": true,
+    "message": "",
     "needToLeaveEarly": true,
+    "isRejected": false,
 		"slow": false,
 		"specialDays": [],
     "vegetarianFriendly": true
@@ -110,7 +126,9 @@
     "hasSpecials": false,
     "isClosed": false,
     "isViable": true,
+    "message": "",
     "needToLeaveEarly": false,
+    "isRejected": false,
 		"slow": false,
 		"specialDays": [],
     "vegetarianFriendly": true
@@ -123,7 +141,9 @@
     "hasSpecials": false,
     "isClosed": false,
     "isViable": true,
+    "message": "",
     "needToLeaveEarly": true,
+    "isRejected": false,
     "slow": true,
     "specialDays": [
       "Tuesday"
@@ -138,7 +158,9 @@
     "hasSpecials": false,
     "isClosed": false,
     "isViable": true,
+    "message": "",
     "needToLeaveEarly": false,
+    "isRejected": false,
 		"slow": true,
 		"specialDays": [],
     "vegetarianFriendly": true
@@ -151,7 +173,9 @@
     "hasSpecials": false,
     "isClosed": false,
     "isViable": true,
+    "message": "",
     "needToLeaveEarly": false,
+    "isRejected": false,
 		"slow": true,
 		"specialDays": [],
     "vegetarianFriendly": false

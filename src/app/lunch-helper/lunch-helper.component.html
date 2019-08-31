@@ -1,17 +1,17 @@
 <div class="lunchHelper">
   <div class="questions">
     <div>
-      Is a vegeterian coming?
+      Is a vegeterian coming? 🥗
       <input type="checkbox" (click) = "updateForVegetarians()" class="custom-control custom-checkbox mb-3">
     </div>
 
     <div>
-      Does anyone have to be back at 1?
+      Does anyone have to be back at 1? 🕐
       <input type="checkbox" (click) = "updateForReturningAtOne()" class="custom-control custom-checkbox mb-3">
     </div>
 
     <div>
-      Can we leave early?
+      Can we leave early? 🏃‍
       <input type="checkbox" (click) = "updateForLeavingEarly()" class="custom-control custom-checkbox mb-3">
     </div>
 
@@ -22,10 +22,20 @@
   </div>
 
   <div class="restaurants">
-    <div *ngFor="let restaurant of Restaurants" class="restaurant" [ngClass]="(restaurant.isViable) ? 'valid-restaurant' : 'invalid-restaurant'">
+    <div
+      *ngFor="let restaurant of Restaurants; index as i"
+      class="restaurant"
+      [ngClass]="(restaurant.isViable) ? 'valid-restaurant' : 'invalid-restaurant'"
+      (click) = "updateRejected(i)"
+      >
         <span>
           {{restaurant.name}}
         </span>
+        <br/>
+        <div style=" min-height:25px;">
+        <span style="font-size:75%;">
+          {{restaurant.message}}
+        </span></div>
     </div>
   </div>
 </div>

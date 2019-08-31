@@ -42,6 +42,11 @@ export class LunchHelperComponent implements OnInit {
     }
   }
 
+  public updateRejected(i) {
+    restaurantData[i].isRejected = !restaurantData[i].isRejected;
+    this.updateViabilities();
+  }
+
   public updateForVegetarians() {
     this.vegetarianComing = !this.vegetarianComing;
     this.updateViabilities();
@@ -69,26 +74,37 @@ export class LunchHelperComponent implements OnInit {
   }
 
   calculateRestaurantViability(restaurantData) {
+    if (restaurantData.isRejected) {
+      restaurantData.message = 'Rejected';
+      return false;
+    }
+
     if (restaurantData.isClosed) {
+      restaurantData.message = 'Closed today';
       return false;
     }
 
     if (this.vegetarianComing && restaurantData.vegetarianFriendly == false) {
+      restaurantData.message = 'Nothing for vegetarians';
       return false;
     }
 
     if (this.areWeDrinking && restaurantData.hasBooze == false) {
+      restaurantData.message = 'No booze';
       return false;
     }
 
     if (!this.leaveEarly && restaurantData.needToLeaveEarly == true) {
+      restaurantData.message = 'We won\'t get a table';
       return false;
     }
 
     if ((!this.leaveEarly && this.backEarly) && (restaurantData.close == false || restaurantData.slow == true)) {
+      restaurantData.message = 'Too slow';
       return false;
     }
 
+    restaurantData.message = ' ';
     return true;
   }
 }
