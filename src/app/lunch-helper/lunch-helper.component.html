@@ -1,4 +1,8 @@
 <div class="lunchHelper">
+  <div class="zulunch-icon">
+    <img src="assets/zulunch-logo.png" alt="zuLunch">
+  </div>
+
   <div class="questions">
     <div>
       Is a vegeterian coming? 🥗
@@ -21,6 +25,8 @@
     </div>
   </div>
 
+  <br/>
+
   <div class="restaurants">
     <div
       *ngFor="let restaurant of Restaurants; index as i"
@@ -32,10 +38,11 @@
           {{restaurant.name}}
         </span>
         <br/>
-        <div style=" min-height:25px;">
-        <span style="font-size:75%;">
-          {{restaurant.message}}
-        </span></div>
+        <div style="min-height:25px;">
+          <span style="font-size:75%;">
+            {{restaurant.message}}
+          </span>
+        </div>
     </div>
   </div>
 </div>
