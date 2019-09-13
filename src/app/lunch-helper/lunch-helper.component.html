@@ -4,24 +4,36 @@
   </div>
 
   <div class="questions">
-    <div>
+    <div
+      class="question"
+      (click) = "updateForVegetarians()"
+      [ngClass]="(this.vegetarianComing) ? 'question-yes' : 'question-no'"
+      >
       Is a vegeterian coming? 🥗
-      <input type="checkbox" (click) = "updateForVegetarians()" class="custom-control custom-checkbox mb-3">
     </div>
 
-    <div>
+    <div
+      class="question"
+      (click) = "updateForReturningAtOne()"
+      [ngClass]="(this.backEarly) ? 'question-yes' : 'question-no'"
+      >
       Does anyone have to be back at 1? 🕐
-      <input type="checkbox" (click) = "updateForReturningAtOne()" class="custom-control custom-checkbox mb-3">
     </div>
 
-    <div>
+    <div
+      class="question"
+      (click) = "updateForLeavingEarly()"
+      [ngClass]="(this.leaveEarly) ? 'question-yes' : 'question-no'"
+      >
       Can we leave early? 🏃‍
-      <input type="checkbox" (click) = "updateForLeavingEarly()" class="custom-control custom-checkbox mb-3">
     </div>
 
-    <div>
+    <div
+      class="question"
+      (click) = "updateForDrinking()"
+      [ngClass]="(this.areWeDrinking) ? 'question-yes' : 'question-no'"
+      >
       Are we drinking? 🍻
-      <input type="checkbox" (click) = "updateForDrinking()" class="custom-control custom-checkbox mb-3">
     </div>
   </div>
 
