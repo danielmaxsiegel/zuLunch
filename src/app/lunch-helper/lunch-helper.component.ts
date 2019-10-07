@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import restaurantData from './restaurants.json';
+import closedRestaurantData from './closedRestaurants.json';
 
 @Component({
   selector: 'app-lunch-helper',
@@ -8,6 +9,8 @@ import restaurantData from './restaurants.json';
 })
 export class LunchHelperComponent implements OnInit {
   Restaurants: any = restaurantData;
+
+  ClosedRestaurants: any = closedRestaurantData;
 
   vegetarianComing = false;
   leaveEarly = false;

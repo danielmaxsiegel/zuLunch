@@ -57,4 +57,26 @@
         </div>
     </div>
   </div>
+
+  <br/><br/><br/>
+  <h1>Fallen Lunchtime Heroes</h1>
+
+  <div class="closedRestaurants">
+    <div
+      *ngFor="let closedRestaurant of ClosedRestaurants; index as i"
+      class="restaurant invalid-restaurant"
+      >
+        <span>
+          {{closedRestaurant.name}}
+        </span>
+        <br/>
+        <div style="min-height:25px;">
+          <span style="font-size:75%;">
+            Permanently closed ⚰️
+          </span>
+        </div>
+    </div>
+  </div>
+
+  <br/>
 </div>

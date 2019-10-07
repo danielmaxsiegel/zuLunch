@@ -29,6 +29,21 @@
     "vegetarianFriendly": false
 	},
   {
+    "name": "Buckley's in Belltown",
+		"close": false,
+    "closedDays": [],
+    "hasBooze": true,
+    "hasSpecials": false,
+    "isClosed": false,
+    "isViable": true,
+    "message": "",
+    "needToLeaveEarly": true,
+    "isRejected": false,
+		"slow": true,
+		"specialDays": [],
+    "vegetarianFriendly": true
+	},
+  {
     "name": "Corner Deli",
 		"close": false,
     "closedDays": [],
@@ -89,6 +104,21 @@
     "vegetarianFriendly": true
 	},
   {
+    "name": "Korean Bamboo",
+		"close": false,
+    "closedDays": [],
+    "hasBooze": true,
+    "hasSpecials": false,
+    "isClosed": false,
+    "isViable": true,
+    "message": "",
+    "needToLeaveEarly": true,
+    "isRejected": false,
+		"slow": true,
+		"specialDays": [],
+    "vegetarianFriendly": true
+	},
+  {
     "name": "Paddy Coyne's",
 		"close": true,
     "closedDays": [],
@@ -104,6 +134,21 @@
     "vegetarianFriendly": true
 	},
   {
+    "name": "Shake Shack",
+		"close": false,
+    "closedDays": [],
+    "hasBooze": false,
+    "hasSpecials": false,
+    "isClosed": false,
+    "isViable": true,
+    "message": "",
+    "needToLeaveEarly": true,
+    "isRejected": false,
+		"slow": true,
+		"specialDays": [],
+    "vegetarianFriendly": false
+	},
+  {
     "name": "Some Random Bar",
 		"close": true,
     "closedDays": [],
@@ -113,6 +158,36 @@
     "isViable": true,
     "message": "",
     "needToLeaveEarly": true,
+    "isRejected": false,
+		"slow": false,
+		"specialDays": [],
+    "vegetarianFriendly": true
+	},
+  {
+    "name": "Spiceup Szechuan Cuisine",
+		"close": false,
+    "closedDays": [],
+    "hasBooze": true,
+    "hasSpecials": false,
+    "isClosed": false,
+    "isViable": true,
+    "message": "",
+    "needToLeaveEarly": true,
+    "isRejected": false,
+		"slow": false,
+		"specialDays": [],
+    "vegetarianFriendly": true
+	},
+  {
+    "name": "Subway",
+		"close": true,
+    "closedDays": [],
+    "hasBooze": false,
+    "hasSpecials": false,
+    "isClosed": false,
+    "isViable": true,
+    "message": "",
+    "needToLeaveEarly": false,
     "isRejected": false,
 		"slow": false,
 		"specialDays": [],
