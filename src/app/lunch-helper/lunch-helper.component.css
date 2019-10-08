@@ -17,6 +17,8 @@
   grid-template-columns: auto auto;
 
 	font-size: 120%;
+
+
 }
 
 .question {
@@ -40,10 +42,10 @@
 }
 
 .question-yes {
-	background-color: #3ca0e6;
+	background-color: #32cd32;
 }
 .question-yes:hover {
-	background-color: #3997db;
+	background-color: #2fc22f;
 }
 
 .question-no {
@@ -117,9 +119,23 @@ input[type=checkbox]
 @media screen and (max-width: 900px) {
   .questions {
     grid-template-columns: auto;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .question {
+    padding: 1px;
+    min-width: 350px;
   }
 
-	.questions {
-		width: 100%;
-	}
+  .questions {
+    grid-template-columns: auto;
+    width: 100%;
+
+    /* min-width: 0px; */
+    /* max-width: 200px; */
+
+    /* padding: 0; */
+  }
 }
