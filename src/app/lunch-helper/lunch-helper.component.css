@@ -128,14 +128,12 @@ input[type=checkbox]
     padding: 1px;
     min-width: 350px;
   }
+}
 
-  .questions {
-    grid-template-columns: auto;
-    width: 100%;
-
-    /* min-width: 0px; */
-    /* max-width: 200px; */
-
-    /* padding: 0; */
-  }
+  @media screen and (max-width: 400px) {
+    .question {
+      padding: 7px 0px;
+      min-width: 330px;
+      font-size: 90%;
+    }
 }
