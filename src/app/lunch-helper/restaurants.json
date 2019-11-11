@@ -59,6 +59,21 @@
     "vegetarianFriendly": false
 	},
   {
+    "name": "Döner",
+		"close": true,
+    "closedDays": [],
+    "hasBooze": true,
+    "hasSpecials": false,
+    "isClosed": false,
+    "isViable": true,
+    "message": "",
+    "needToLeaveEarly": false,
+    "isRejected": false,
+		"slow": false,
+		"specialDays": [],
+    "vegetarianFriendly": true
+	},
+  {
     "name": "The Five Point Cafe",
 		"close": false,
     "closedDays": [],
